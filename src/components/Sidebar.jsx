@@ -82,6 +82,10 @@ function SidebarContent({ active, onNavigate }) {
     0,
     NAV.findIndex((n) => n.id === active),
   );
+  const [year, setYear] = useState(2026);
+  useEffect(() => {
+    setYear(new Date().getFullYear());
+  }, []);
 
   return (
     <div className="relative flex h-full flex-col p-5">
@@ -89,7 +93,7 @@ function SidebarContent({ active, onNavigate }) {
       <div className="flex flex-col items-center text-center">
         <div className="rounded-full bg-gradient-to-br from-indigo-400 via-violet-400 to-fuchsia-400 p-[2px]">
           <Image
-            src="/me.jpg"
+            src="/profile.PNG"
             alt="Shafiullah"
             width={88}
             height={88}
@@ -202,7 +206,7 @@ function SidebarContent({ active, onNavigate }) {
               </li>
             ))}
           </ul>
-          <p className="text-xs text-slate-500">© {new Date().getFullYear()}</p>
+          <p className="text-xs text-slate-500">© {year}</p>
         </div>
       </div>
     </div>

@@ -147,7 +147,7 @@ export default function About() {
               className="absolute -top-10 left-1/2 h-64 w-64 -translate-x-1/2 rounded-full bg-fuchsia-400/20 blur-3xl"
             />
             <Image
-              src="/banner-photo.webp"
+              src="/banner-photo4.png"
               alt="Shafiullah"
               fill
               sizes="(min-width: 1024px) 380px, 90vw"
@@ -174,15 +174,19 @@ export default function About() {
             </h3>
             <div className="mt-4 space-y-4 leading-relaxed text-slate-300">
               <p>
-                I&apos;m Shafiullah, a full-stack JavaScript developer. I work
-                across the entire stack: building interfaces with Next.js and
-                Tailwind CSS, designing APIs with Express, and modelling data in
-                MongoDB.
+                I&apos;m Shafiullah, a Full-Stack Web Developer specializing in
+                building modern, scalable, and user-focused web applications.
+                With experience in React, Next.js, Tailwind CSS, Express.js, and
+                MongoDB, I develop seamless web experiences that combine
+                intuitive interfaces with reliable backend functionality. My
+                work includes building full-stack applications, integrating REST
+                APIs, implementing secure authentication, and developing payment
+                solutions.
               </p>
               <p>
-                I like owning a feature from the first idea to the deployed URL,
-                and I care as much about authentication, performance and clean
-                code as I do about how things look.
+                I enjoy solving complex problems, writing maintainable code, and
+                turning ideas into practical digital products through thoughtful
+                engineering and continuous improvement.
               </p>
             </div>
             <div className="mt-6 flex flex-wrap gap-3">

@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 // Put the photo at /public/banner-photo.webp (transparent background cutout)
-const PHOTO = "/banner-photo.webp";
+const PHOTO = "/banner-photo4.png";
 
 const STACK = ["Next.js", "Express", "MongoDB", "Tailwind CSS", "Vercel"];
 const ROLES = ["web apps.", "REST APIs.", "full-stack products."];
